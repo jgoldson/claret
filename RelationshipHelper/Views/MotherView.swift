@@ -21,7 +21,7 @@ struct MotherView : View {
                 FirstTimeFrequencyView()
             }
             else if currentPage == "homeView" {
-                ContentView()
+                MainView()
             }
         }
     }

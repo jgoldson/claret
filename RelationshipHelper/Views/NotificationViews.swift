@@ -10,6 +10,7 @@ import SwiftUI
 
 struct NotificationsView: View {
     @Binding var appHeader : String
+    @Binding var goalSubtitle: String
     @State var isHidden = true
     var title: String
     var suggestions: Array<String>
@@ -62,6 +63,7 @@ struct NotificationsView: View {
                     let suggestion = getSuggestion()
                     NotiLine(appHeader: $appHeader, clearDate: $clearDate, title: title, suggestion: suggestion, id: id)
                         .onAppear{appHeader = "New Goals"
+                            goalSubtitle = "Express your affection through one of our suggestions or come up with your own"
                         }
                 }
                 //If its been more than 1 day, show a different suggestion
@@ -69,6 +71,8 @@ struct NotificationsView: View {
                     let suggestion = suggestions[Int.random(in: 0...(suggestions.count-1))]
                     NotiLine(appHeader: $appHeader, clearDate: $clearDate, title: title, suggestion: suggestion, id: id)
                         .onAppear{appHeader = "New Goals"
+                            goalSubtitle = "Express your affection through one of our suggestions or come up with your own"
+                            
                             saveNewSuggestion(suggestion: suggestion)
                         }
                 }
@@ -81,6 +85,7 @@ struct NotificationsView: View {
                     let suggestion = getSuggestion()
                     NotiLine(appHeader: $appHeader, clearDate: $clearDate, title: title, suggestion: suggestion, id: id)
                         .onAppear{appHeader = "New Goals"
+                            goalSubtitle = "Express your affection through one of our suggestions or come up with your own"
                         }
                 }
                 //If its been more than 1 day, show a different suggestion
@@ -88,6 +93,7 @@ struct NotificationsView: View {
                     let suggestion = suggestions[Int.random(in: 0...(suggestions.count-1))]
                     NotiLine(appHeader: $appHeader, clearDate: $clearDate, title: title, suggestion: suggestion, id: id)
                         .onAppear{appHeader = "New Goals"
+                            goalSubtitle = "Express your affection through one of our suggestions or come up with your own"
                             saveNewSuggestion(suggestion: suggestion)
                         }
                 }
@@ -99,6 +105,7 @@ struct NotificationsView: View {
                     let suggestion = getSuggestion()
                     NotiLine(appHeader: $appHeader, clearDate: $clearDate, title: title, suggestion: suggestion, id: id)
                         .onAppear{appHeader = "New Goals"
+                            goalSubtitle = "Express your affection through one of our suggestions or come up with your own"
                         }
                 }
                 //If its been more than 1 day, show a different suggestion
@@ -106,6 +113,7 @@ struct NotificationsView: View {
                     let suggestion = suggestions[Int.random(in: 0...(suggestions.count-1))]
                     NotiLine(appHeader: $appHeader, clearDate: $clearDate, title: title, suggestion: suggestion, id: id)
                         .onAppear{appHeader = "New Goals"
+                            goalSubtitle = "Express your affection through one of our suggestions or come up with your own"
                             saveNewSuggestion(suggestion: suggestion)
                         }
                 }
@@ -138,6 +146,7 @@ struct NotiLine: View {
                 .fixedSize(horizontal: false, vertical: true)
                 .frame(maxWidth: 110, maxHeight: 100, alignment: .center)
             
+
             
             VStack(alignment: .leading){
                 Text("Here's a suggestion:")

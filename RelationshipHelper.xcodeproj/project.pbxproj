@@ -19,6 +19,9 @@
 		BF33469D265BFC96004A044B /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33469C265BFC96004A044B /* ViewRouter.swift */; };
 		BF8FB6ED265D484500AEB85C /* RankLoveLanguagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8FB6EC265D484500AEB85C /* RankLoveLanguagesView.swift */; };
 		BF8FB6EF265D4C9D00AEB85C /* FirstTimeFrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8FB6EE265D4C9D00AEB85C /* FirstTimeFrequencyView.swift */; };
+		BFD78F6A2676EA960096D34F /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD78F692676EA950096D34F /* Tab.swift */; };
+		BFD78F6C2676ED630096D34F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD78F6B2676ED630096D34F /* MainView.swift */; };
+		BFD78F6E2676EFC00096D34F /* LoveScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD78F6D2676EFC00096D34F /* LoveScore.swift */; };
 		BFEE816F26458A3B0067DE0E /* RelationshipHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE816E26458A3B0067DE0E /* RelationshipHelperApp.swift */; };
 		BFEE817126458A3B0067DE0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE817026458A3B0067DE0E /* ContentView.swift */; };
 		BFEE817326458A3C0067DE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEE817226458A3C0067DE0E /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 		BF33469C265BFC96004A044B /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		BF8FB6EC265D484500AEB85C /* RankLoveLanguagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankLoveLanguagesView.swift; sourceTree = "<group>"; };
 		BF8FB6EE265D4C9D00AEB85C /* FirstTimeFrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeFrequencyView.swift; sourceTree = "<group>"; };
+		BFD78F692676EA950096D34F /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		BFD78F6B2676ED630096D34F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BFD78F6D2676EFC00096D34F /* LoveScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveScore.swift; sourceTree = "<group>"; };
 		BFEE816B26458A3B0067DE0E /* RelationshipHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelationshipHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEE816E26458A3B0067DE0E /* RelationshipHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipHelperApp.swift; sourceTree = "<group>"; };
 		BFEE817026458A3B0067DE0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +143,9 @@
 				BF33469A265BFC57004A044B /* MotherView.swift */,
 				BF8FB6EC265D484500AEB85C /* RankLoveLanguagesView.swift */,
 				BF8FB6EE265D4C9D00AEB85C /* FirstTimeFrequencyView.swift */,
+				BFD78F692676EA950096D34F /* Tab.swift */,
+				BFD78F6B2676ED630096D34F /* MainView.swift */,
+				BFD78F6D2676EFC00096D34F /* LoveScore.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,11 +232,14 @@
 				BFEE818626489FF10067DE0E /* SettingsView.swift in Sources */,
 				BF334699265BFAC0004A044B /* PageControl.swift in Sources */,
 				BF27FDF026540EA800E3AEAF /* Constants.swift in Sources */,
+				BFD78F6E2676EFC00096D34F /* LoveScore.swift in Sources */,
+				BFD78F6C2676ED630096D34F /* MainView.swift in Sources */,
 				BF8FB6EF265D4C9D00AEB85C /* FirstTimeFrequencyView.swift in Sources */,
 				BF334694265BF3F9004A044B /* OnboardingView.swift in Sources */,
 				BF334697265BF5E4004A044B /* PageViewController.swift in Sources */,
 				BFEE816F26458A3B0067DE0E /* RelationshipHelperApp.swift in Sources */,
 				BFEE817E264700BD0067DE0E /* rDailyNotification.swift in Sources */,
+				BFD78F6A2676EA960096D34F /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
